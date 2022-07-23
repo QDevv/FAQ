@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: linear-gradient(to top, rgb(101, 98, 230), #ad67e7);
+}
+.white-container {
+  width: 68vw;
+  border-radius: 15px;
+  background-color: white;
+  height: 77vh;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  /* border: 2px solid purple; */
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.image-wrapper {
+  width: 50%;
+  /* border: 2px solid red; */
+  position: relative;
+}
+.image-wrapper img {
+  position: relative;
+  right: 590px;
+  bottom: 310px;
+}
+.Texts {
+  width: 50%;
+  /* border: 2px solid green; */
+  padding-top: 30px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.Desktop {
+  position: absolute;
+  left: -90px;
+  top: -900px;
+  /* top: 50%; */
+  /* z-index: 2; */
+}
+.Texts h1 {
+  margin-bottom: 20px;
+}
+.border-bottom {
+  border-bottom: 1.5px solid rgb(178, 173, 173);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  width: 85%;
+  padding-right: 15px;
+
+  /* border: 2px solid crimson; */
+}
+.icon-wrapper {
+  width: 13px;
+  height: 10px;
+  border-bottom: none;
+  /* float: left; */
+  margin-left: auto;
+}
+.icon-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.answer1,
+.answer2,
+.answer3 {
+  display: none;
+  font-size: 14px;
+  width: 90%;
+  font-size: 14px;
+}
+.answer2 {
+  width: 90%;
+  font-size: 14px;
+}
+.Box-wrapper {
+  width: 170px;
+  position: relative;
+  right: 272%;
+  top: 7%;
+}
+
+.Box-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.show {
+  display: block;
+  border-bottom: 1.5px solid rgb(178, 173, 173);
+  padding-bottom: 10px;
+}
+.remove-borderBottom {
+  border-bottom: none;
+}
+.border-bottom p:hover {
+  color: hsl(14, 88%, 65%);
+  cursor: pointer;
+}
+.upside-down {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.bold {
+  font-weight: 800;
+  color: black;
+}
